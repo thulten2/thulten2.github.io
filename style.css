@@ -2,7 +2,10 @@
 
 body, nav{
     display: block;
-    
+}
+body{
+    overflow: auto;
+    height: 1000px;
 }
 html{
     background-color: grey;
@@ -12,8 +15,6 @@ html{
 body{
     background-color: white;
     width: 70%;
-    overflow:auto;
-    height: 1100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,46 +22,46 @@ h1{
     font-family: 'Times New Roman', Times, serif;
   
 }
-#nava{
+nav li{
+    float:left;
     
-    float: left;
-}
-#home{
-    position: absolute;
-    float: left;
-    left: 48%;
-    top:0%;
 }
 
 nav{
     width: 50%;
-    border: red;
-    clear: both;
+    margin-left:auto;
+    margin-right:160px;
    
 }
-nav a{
+
+a:hover{
+    color: red;
+}
+#home{
+    
     text-align: center;
-   
-  
-   
+    top:0%;
 }
 footer{
     position: fixed;
     bottom: 0;
     right: 50%; 
 }
+img{
+    position: absolute;
+}
 #pic{
     display: block;
     margin-left: 800px;
     margin-top: 100px;
     height: 350px;
-    position: absolute;
+    
 }
 #bit{
     display: block;
     margin-left: 250px;
     margin-top: 100px;
-    position: absolute;
+    
 }
 p{
   text-align: center;  
@@ -76,18 +77,36 @@ p{
 }
 ul{
     list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li{
+    float:left;
+}
+li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 #sch{
     display:block;
-    position: absolute;
     height:250px;
     margin-left:20px;
     margin-top:0px;
 }
 #sch2{
     display:block;
-    position: absolute;
     height:250px;
     margin-left:980px;
     margin-top:0px;
+}
+#work{
+    display: block;
+    height: 250px;
+    margin-top: 400px;
+    margin-left: 500px;
+    
 }
