@@ -1,0 +1,27 @@
+@charset "utf-8";
+div{
+    display:flex;
+    flex-wrap: wrap;
+}
+.bui{
+    flex:30%;
+    border: 1px solid red;
+}
+body{
+    box-sizing: border-box;
+}
+@media(max-device-width: 480px)
+{
+    body{
+        overflow: scroll;  
+    }
+    div{
+        flex:100%;
+        border: 1px solid red;
+    }
+    .bui{
+        flex:100%;
+        border: 1px solid blue;
+        
+    }
+}
