@@ -5,7 +5,6 @@ div{
 }
 .bui{
     flex:30%;
-    border: 1px solid red;
 }
 body{
     box-sizing: border-box;
@@ -17,11 +16,8 @@ body{
     }
     div{
         flex:100%;
-        border: 1px solid red;
     }
     .bui{
         flex:100%;
-        border: 1px solid blue;
-        
     }
 }
