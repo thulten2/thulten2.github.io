@@ -47,7 +47,7 @@ nav#topLinks a:hover{
 
 /* Animation Styles */
 video{
-   animation: spin 4s linear infinite;
+   animation: spin 104.04s linear infinite;
 }
 input#rotateVideo:checked~video{
    animation-play-state: running;
