@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+body, nav{
+    display: block;
+}
+body{
+    overflow: auto;
+    height: 1000px;
+}
+html{
+    background-color: grey;
+  
+    
+}
+body{
+    background-color: white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+nav li{
+    float:left;
+    
+}
+
+nav{
+    width: 50%;
+    margin-left:auto;
+    margin-right:160px;
+   
+}
+
+a:hover{
+    color: red;
+}
+#home{
+    
+    text-align: center;
+    top:0%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 50%; 
+    float: clear;
+}
+aside{
+    width:30%;
+    height: 450px;
+}
+#pic{
+    display: block;
+    float:left;
+    margin-left:10%;
+}
+img{
+    width:100%;
+}
+#bit{
+    display: block;
+    float: left;
+    margin-left: 20%;
+}
+
+#picc{
+    width:100%;
+    display:block;
+    
+}
+p{
+  text-align: center;  
+}
+#message{
+    text-align: center;
+}
+#about{
+    text-align: center;
+}
+.mid{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li{
+    float:left;
+}
+li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#sch{
+    float:left;
+    display:block;
+    width:30%;
+    
+}
+#sch2{
+    display:block;
+    width:30%;
+    float:right;
+}
+#work{
+    display: block;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+table{
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+}
+th{
+    background-color: #D6EEEE;
+}
+td, th{
+    text-align: center;
+    border: 2px solid black;
+    padding: 1%;
+    
+}
+tr:hover{
+    background-color: #D6EEEE;;
+}
