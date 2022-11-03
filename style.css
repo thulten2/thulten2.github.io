@@ -30,7 +30,7 @@ nav li{
 nav{
     width: 50%;
     margin-left:auto;
-    margin-right:160px;
+    margin-right:210px;
    
 }
 
@@ -135,3 +135,42 @@ td, th{
 tr:hover{
     background-color: #D6EEEE;;
 }
+#headF{
+    text-align: center;
+}
+
+
+.column {
+    float: left;
+    width: 48%;
+    padding: 10px;
+   
+  }
+  .row:after {
+    width:48%;
+    float:right;
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .fav{
+    width:500px;
+  }
+  #imgA{
+    width:35%;
+    display:inline;
+  }
+  #imgB{
+    width:35%;
+    display:inline;
+  
+  }
+  #hide{
+    display:none;
+  }
+  #imgA:hover + #hide{
+    display:block;
+  }
+  #title{
+    text-align: center;
+  }
