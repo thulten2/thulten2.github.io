@@ -9,14 +9,13 @@ body{
 }
 html{
     background-color: grey;
-  
-    
 }
 body{
     background-color: white;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    overflow:scroll;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
@@ -24,21 +23,16 @@ h1{
 }
 nav li{
     float:left;
-    
 }
-
 nav{
     width: 50%;
     margin-left:auto;
-    margin-right:210px;
-   
+    margin-right:270px;
 }
-
 a:hover{
     color: red;
 }
-#home{
-    
+#home{  
     text-align: center;
     top:0%;
 }
@@ -65,11 +59,9 @@ img{
     float: left;
     margin-left: 20%;
 }
-
 #picc{
     width:100%;
     display:block;
-    
 }
 p{
   text-align: center;  
@@ -114,9 +106,7 @@ li a{
     display: block;
     width:30%;
     margin-left: auto;
-    margin-right: auto;
-    
-    
+    margin-right: auto; 
 }
 table{
     width:85%;
@@ -130,21 +120,17 @@ td, th{
     text-align: center;
     border: 2px solid black;
     padding: 1%;
-    
 }
 tr:hover{
-    background-color: #D6EEEE;;
+    background-color: #D6EEEE;
 }
 #headF{
     text-align: center;
 }
-
-
 .column {
     float: left;
     width: 48%;
     padding: 10px;
-   
   }
   .row:after {
     width:48%;
@@ -153,24 +139,65 @@ tr:hover{
     display: table;
     clear: both;
   }
-  .fav{
-    width:500px;
-  }
-  #imgA{
-    width:35%;
-    display:inline;
-  }
-  #imgB{
-    width:35%;
-    display:inline;
-  
-  }
-  #hide{
-    display:none;
-  }
-  #imgA:hover + #hide{
-    display:block;
-  }
-  #title{
-    text-align: center;
-  }
+fieldset{
+    background-color:rgb(161, 228, 161);
+}
+input{
+    width:100%;
+    padding:12px 20px;
+    margin: 8px 0;
+}
+input:focus{
+    background-color:#D6EEEE;
+}
+legend{
+    background-color: black;
+    color:white;
+    padding: 5px;
+ }
+ #rating{
+    background-color: black;
+ }
+ /*favorite.html*/
+ .video{
+    float:right;
+ }
+ p.border{
+    border-style: solid;
+    width: 50%;
+    margin-left:5%;
+    float:left;
+    margin-top:9%;
+ }
+ #games{
+    clear:both;
+    margin-top:2%;
+    margin-left:12%;
+    width:75%;
+ }
+ .gamevid{
+    margin-left:7%;
+ }
+/*hobbies.html*/
+ .border1{
+    width:90%;
+    border-style: solid;
+    margin-left:5%;
+    margin-right:5%;
+ }
+ .imgrun{
+    width:20%;
+    margin-left:10%;
+ }
+ .imgbike{
+    width:20%;
+    margin-left: 10%;
+ }
+ .imgbench{
+    width:30%;
+    margin-left:5%;
+ }
+ .imgHobbie{
+    width:25%;
+    margin-left:7%;
+ }
