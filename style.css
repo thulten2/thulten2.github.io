@@ -25,9 +25,8 @@ nav li{
     float:left;
 }
 nav{
-    width: 50%;
-    margin-left:auto;
-    margin-right:270px;
+    margin-left:285px;
+    margin-right:50px;
 }
 a:hover{
     color: red;
@@ -201,3 +200,8 @@ legend{
     width:25%;
     margin-left:7%;
  }
+/*Countdown*/
+#countdown{
+    font-size: 150%;
+    text-align:center;
+}
